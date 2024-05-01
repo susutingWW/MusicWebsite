@@ -1,0 +1,26 @@
+.content-box{
+    position: absolute;
+    left: 150px;
+    right:0;
+    top:50px;
+    bottom:0;
+    overflow-y:scroll;
+    -webkit-transition: left .3s ease-in-out;
+    transition: left .3s ease-in-out;
+    background: white;
+}
+.content-collapse{
+    left: 65px;
+}
+.table{
+    min-width: 800px;
+}
+.container{
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.mgb20{
+    margin-bottom: 20px;
+    width: 100%;
+}
